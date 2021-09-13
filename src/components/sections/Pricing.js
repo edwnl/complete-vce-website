@@ -71,15 +71,15 @@ export default function ThreeTierPricing() {
                         <List spacing={3} textAlign="start" px={12} maxW={"300px"}>
 
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 Experience Complete VCE Tutoring
                             </ListItem>
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 Meet our Expert Tutors
                             </ListItem>
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 100% free, no strings attached.
                             </ListItem>
                         </List>
@@ -134,23 +134,23 @@ export default function ThreeTierPricing() {
                             borderBottomRadius={'xl'}>
                             <List spacing={3} textAlign="start" px={12} maxW={"300px"}>
                                 <ListItem>
-                                    <ListIcon as={FaCheckCircle} color="primary.500" />
+                                    <ListIcon as={FaCheckCircle} color="secondary.500" />
                                     Exclusive Notes
                                 </ListItem>
                                 <ListItem>
-                                    <ListIcon as={FaCheckCircle} color="primary.500" />
+                                    <ListIcon as={FaCheckCircle} color="secondary.500" />
                                     Exclusive Exam Tips
                                 </ListItem>
                                 <ListItem>
-                                    <ListIcon as={FaCheckCircle} color="primary.500" />
+                                    <ListIcon as={FaCheckCircle} color="secondary.500" />
                                     Past Exams Explained
                                 </ListItem>
                                 <ListItem>
-                                    <ListIcon as={FaCheckCircle} color="primary.500" />
+                                    <ListIcon as={FaCheckCircle} color="secondary.500" />
                                     Expert Physics Tutors
                                 </ListItem>
                                 <ListItem>
-                                    <ListIcon as={FaCheckCircle} color="primary.500" />
+                                    <ListIcon as={FaCheckCircle} color="secondary.500" />
                                     Complex Concepts Simplified
                                 </ListItem>
                             </List>
@@ -189,19 +189,19 @@ export default function ThreeTierPricing() {
                         <List spacing={3} textAlign="start" px={12} maxW={"300px"}>
 
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 Exclusive notes
                             </ListItem>
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 Exclusive exam tips
                             </ListItem>
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 Expert Physics Tutors
                             </ListItem>
                             <ListItem>
-                                <ListIcon as={FaCheckCircle} color="primary.500" />
+                                <ListIcon as={FaCheckCircle} color="secondary.500" />
                                 Complex Concepts Simplified
                             </ListItem>
                         </List>
