@@ -46,7 +46,7 @@ export default function Hero({
 
         <Link to={ctaLink}>
           <Button
-            colorScheme="primary"
+            colorScheme="secondary"
             borderRadius="8px"
             py="4"
             px="4"

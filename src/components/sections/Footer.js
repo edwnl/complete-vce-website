@@ -15,6 +15,7 @@ export default function Footer() {
             <Stack
                 direction={{base: "column", md: "row"}}
                 py={4}
+                px={10}
                 spacing={4}
                 justify={{ base: 'center', md: 'space-between' }}
                 align={'center'}>

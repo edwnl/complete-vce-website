@@ -1,5 +1,5 @@
 import {
-    Box, Center,
+    Box, Button, Center,
     chakra,
     Flex, Heading,
     SimpleGrid,
@@ -8,12 +8,13 @@ import {
     StatNumber, Text,
     useColorModeValue, VStack,
 } from '@chakra-ui/react';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { AiFillPhone } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import { FiServer } from 'react-icons/fi';
 import { GoLocation } from 'react-icons/go';
 import LandingLayout from "../components/layouts/LandingLayout";
+import {Link} from "react-router-dom";
 
 function StatsCard(props) {
     const { title, lineOne, lineTwo, icon } = props;
@@ -53,15 +54,15 @@ export default function BasicStatistics() {
     return (
         <LandingLayout>
 
-        <Box maxW="7xl" mx={'auto'} pt={5} mb={20} px={{ base: 2, sm: 12, md: 17 }}>
+        <Box maxW="7xl" mx={'auto'} pt={5} mb={10} px={{ base: 5, sm: 12, md: 17 }}>
             <Center>
-                <VStack spacing={2} py={10}>
+                <VStack spacing={2} pb={10}>
                     <Heading
                         fontSize={'4xl'}
                         fontWeight={'bold'}>
                         Contact Us
                     </Heading>
-                    <Text>
+                    <Text align={"center"}>
                         For any enquires, or lesson bookings, call or email us and we will get back to you as soon as possible.
                     </Text>
                 </VStack>
@@ -89,8 +90,24 @@ export default function BasicStatistics() {
             </SimpleGrid>
         </Box>
 
+
             <iframe width="100%" height="450" allowFullScreen
     src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJX_BU5lRd1moR8rojllNIR8g&key=AIzaSyARd_vM0fDHU6E65rKMRzb1GKbE_8rHaPY"/>
+
+            <Center my={10}>
+                <Link to={"/"}>
+                    <Button
+                        colorScheme="secondary"
+                        borderRadius="8px"
+                        py="4"
+                        px="4"
+                        lineHeight="1"
+                        size="md"
+                    >
+                        Back to Homepage
+                    </Button>
+                </Link>
+            </Center>
 
         </LandingLayout>
 

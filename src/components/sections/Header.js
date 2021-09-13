@@ -51,7 +51,7 @@ const Header = (props) => {
       w={{base: "100%", md: "75%"}}
       p={8}
       bg={"transparent"}
-      color={["white", "white", "primary.700", "primary.700"]}
+      color={["white", "white", "secondary.700", "secondary.700"]}
       {...props}
     >
       <Flex align="center">
@@ -86,7 +86,7 @@ const Header = (props) => {
               <Button
                   size="sm"
                   rounded="md"
-                  colorScheme={"primary"}
+                  colorScheme={"secondary"}
               >
                 Contact Us
               </Button>

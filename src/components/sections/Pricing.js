@@ -32,7 +32,7 @@ function PriceWrapper({ children }) {
 
 export default function ThreeTierPricing() {
     return (
-        <Box py={12}>
+        <Box py={{base:4, md:12}} px={5}>
             <VStack spacing={2} textAlign="center">
                 <Heading as="h1" fontSize="4xl">
                     Lesson Prices
@@ -69,9 +69,10 @@ export default function ThreeTierPricing() {
                         py={4}
                         borderBottomRadius={'xl'}>
                         <List spacing={3} textAlign="start" px={12} maxW={"300px"}>
+
                             <ListItem>
                                 <ListIcon as={FaCheckCircle} color="primary.500" />
-                                Experience Our Professional Tutoring
+                                Experience Complete VCE Tutoring
                             </ListItem>
                             <ListItem>
                                 <ListIcon as={FaCheckCircle} color="primary.500" />
@@ -84,7 +85,7 @@ export default function ThreeTierPricing() {
                         </List>
                         <Box w="80%" pt={7}>
                             <Link to={"/contact"}>
-                                <Button w="full" colorScheme="primary" variant="outline">
+                                <Button w="full" colorScheme="secondary" variant="outline">
                                     Contact Us
                                 </Button>
                             </Link>
@@ -101,7 +102,7 @@ export default function ThreeTierPricing() {
                             style={{ transform: 'translate(-50%)' }}>
                             <Text
                                 textTransform="uppercase"
-                                bg={useColorModeValue('primary.300', 'red.700')}
+                                bg={useColorModeValue('secondary.300', 'red.700')}
                                 px={3}
                                 py={1}
                                 color={useColorModeValue('gray.900', 'gray.300')}
@@ -131,7 +132,7 @@ export default function ThreeTierPricing() {
                             bg={useColorModeValue('gray.50', 'gray.700')}
                             py={4}
                             borderBottomRadius={'xl'}>
-                            <List spacing={3} textAlign="start" px={12}>
+                            <List spacing={3} textAlign="start" px={12} maxW={"300px"}>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="primary.500" />
                                     Exclusive Notes
@@ -155,7 +156,7 @@ export default function ThreeTierPricing() {
                             </List>
                             <Box w="80%" pt={7}>
                                 <Link to={"/contact"}>
-                                    <Button w="full" colorScheme="primary">
+                                    <Button w="full" colorScheme="secondary">
                                         Contact Us
                                     </Button>
                                 </Link>
@@ -185,7 +186,8 @@ export default function ThreeTierPricing() {
                         bg={useColorModeValue('gray.50', 'gray.700')}
                         py={4}
                         borderBottomRadius={'xl'}>
-                        <List spacing={3} textAlign="start" px={12}>
+                        <List spacing={3} textAlign="start" px={12} maxW={"300px"}>
+
                             <ListItem>
                                 <ListIcon as={FaCheckCircle} color="primary.500" />
                                 Exclusive notes
@@ -205,7 +207,7 @@ export default function ThreeTierPricing() {
                         </List>
                         <Box w="80%" pt={7}>
                             <Link to={"/contact"}>
-                                <Button w="full" colorScheme="primary" variant="outline">
+                                <Button w="full" colorScheme="secondary" variant="outline">
                                     Contact Us
                                 </Button>
                             </Link>

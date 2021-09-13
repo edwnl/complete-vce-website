@@ -97,9 +97,26 @@ export default function Tutors() {
         >
             <Container maxW={'150vw'} py={16} as={Stack} spacing={12}>
                 <Stack spacing={0} align={'center'}>
-                    <Heading>Our Tutors</Heading>
-                    <Text align={"center"}>We are a team of top-achieving VCE Physics specialists who truly care about making the subject understandable to you.</Text>
-
+                    <Heading
+                        as="h1"
+                        size="xl"
+                        fontWeight="bold"
+                        color="primary.800"
+                        textAlign={"center"}
+                        p={4}
+                    >
+                        Our Tutors
+                    </Heading>
+                    <Heading
+                        as="h2"
+                        size="md"
+                        color="primary.800"
+                        fontWeight="normal"
+                        lineHeight={1.5}
+                        textAlign={"center"}
+                    >
+                        We are a team of top-achieving VCE Physics specialists who truly care about making the subject understandable to you.
+                    </Heading>
                 </Stack>
                 <Stack
                     align={"center"}

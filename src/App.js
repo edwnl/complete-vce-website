@@ -6,10 +6,13 @@ import Footer from "./components/sections/Footer";
 import Pricing from "./pages/Pricing";
 import ContactUs from "./pages/ContactUs";
 import Details from "./pages/Details";
+import ScrollToTop from "./components/misc/ScrollToTop";
 
 export default function App() {
     return (
         <Router>
+            <ScrollToTop/>
+
             <Switch>
                 <Route path="/pricing">
                     <Pricing/>

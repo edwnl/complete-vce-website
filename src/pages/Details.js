@@ -6,11 +6,10 @@ import {
     Table,
     Thead,
     Tbody,
-    Tfoot,
     Tr,
     Th,
     Td,
-    TableCaption, Flex, Box, VStack, Button, Center,
+    Flex, Box, VStack, Button, Center,
 } from "@chakra-ui/react";
 import {Link} from "react-router-dom";
 
@@ -18,13 +17,13 @@ import {Link} from "react-router-dom";
 export default function Details() {
     return (
         <LandingLayout>
-            <Box pb={10} alignItems={"flex-start"}>
+            <Box pb={10} alignItems={"flex-start"} px={5}>
 
                 <VStack spacing={2} textAlign="center">
                     <Heading as="h1" fontSize="4xl">
                         Lesson Details
                     </Heading>
-                    <Text fontSize="lg" color={'gray.500'}>
+                    <Text fontSize="lg"  color={'gray.500'}>
                          Lessons are taught following the VCE Physics Syllabus, and run every weekend for 2 hours.
                     </Text>
                 </VStack>
@@ -80,7 +79,7 @@ export default function Details() {
                 <Center>
                     <Link to={"/pricing"}>
                         <Button
-                            colorScheme="primary"
+                            colorScheme="secondary"
                             borderRadius="8px"
                             py="4"
                             mt={10}
