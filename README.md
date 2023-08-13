@@ -1,6 +1,7 @@
 # complete-vce-tuition
 Website Live at: https://edwnl.github.io/complete-vce-tuition/
-Technology Used: React, JavaScript, UI Framework: https://chakra-ui.com/
+
+Technology Used: React, JavaScript, HTML, npm, UI Framework: https://chakra-ui.com/, Google Maps API
 
 Responsive Static Website made in React for a tutoring company based in Melbourne.
 
