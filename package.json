@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://edwnl.github.io/complete-vce-tuition",
+  "homepage": "https://edwnl.github.io/complete-vce-website",
   "dependencies": {
     "@chakra-ui/react": "latest",
     "@emotion/react": "latest",
